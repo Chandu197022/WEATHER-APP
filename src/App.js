@@ -44,7 +44,7 @@ export default function App() {
           <img src={logo} alt="Site Logo" className="site-logo" />
         </header>
 
-        <h1 className="title">Dynamic Weather Web App</h1>
+        <h1 className="title">SKY CAST</h1>
 
         <div className="search-box">
           <input
