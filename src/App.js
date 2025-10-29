@@ -1,6 +1,13 @@
 import React, { useState } from "react";
-import { FaSearch, FaTemperatureHigh, FaWind, FaTint, FaCloud } from "react-icons/fa";
+import {
+  FaSearch,
+  FaTemperatureHigh,
+  FaWind,
+  FaTint,
+  FaCloud,
+} from "react-icons/fa";
 import "./index.css";
+import logo from "./logo.jpg"; // 👈 import your logo here
 
 export default function App() {
   const [city, setCity] = useState("");
@@ -31,7 +38,14 @@ export default function App() {
   return (
     <div className="app">
       <div className="weather-card">
+        
+        {/* 🌤️ Header with Logo */}
+        <header className="app-header">
+          <img src={logo} alt="Site Logo" className="site-logo" />
+        </header>
+
         <h1 className="title">Dynamic Weather Web App</h1>
+
         <div className="search-box">
           <input
             type="text"
