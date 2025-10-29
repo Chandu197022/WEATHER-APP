@@ -7,7 +7,7 @@ import {
   FaCloud,
 } from "react-icons/fa";
 import "./index.css";
-import logo from "./logo.jpg"; // 👈 import your logo here
+import logo from "./logo.jpg";
 
 export default function App() {
   const [city, setCity] = useState("");
